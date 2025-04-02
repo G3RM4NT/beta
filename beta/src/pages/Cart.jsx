@@ -1,5 +1,5 @@
 import React from 'react';
-import CartComponent from '../components/Cart';
+import CartComponent from '../components/cart.jsx';
 
 const Cart = ({ cart, removeFromCart }) => {
   return (

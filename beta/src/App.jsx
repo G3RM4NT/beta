@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/navbar.js';
-import Home from './pages/home.js';
-import ProductDetail from './pages/ProductDetail';
-import Cart from './pages/Cart';
-import Recommendations from './pages/Recommendations';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from './components/navbar.jsx';
+import Home from './pages/home.jsx';
+import ProductDetail from './pages/ProductsDetail.jsx';
+import Cart from './pages/Cart.jsx';
+import Recommendations from './pages/Recommendations.jsx';
 
 function App() {
   const [cart, setCart] = useState([]);
